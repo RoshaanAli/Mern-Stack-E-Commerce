@@ -1,6 +1,6 @@
 import React from "react";
 import data from "./data";
-
+import Product from "./components/Product";
 function App() {
   return (
     <div className="grid-container">
@@ -21,34 +21,7 @@ function App() {
             {data.products.map((item) => {
               console.log(item);
               return (
-                <div key={item._idS} className="card">
-                  <a href={`/product/${item._id}`}>
-                    <img className="medium" src={item.image} alt="product" />
-                  </a>
-                  <div className="card-body">
-                    <a href={`/product/${item._id}`}>
-                      <h2>{item.name}</h2>
-                    </a>
-                    <div className="rating">
-                      <span>
-                        <i className="fa fa-star"></i>
-                      </span>
-                      <span>
-                        <i className="fa fa-star"></i>
-                      </span>
-                      <span>
-                        <i className="fa fa-star"></i>
-                      </span>
-                      <span>
-                        <i className="fa fa-star"></i>
-                      </span>
-                      <span>
-                        <i className="fa fa-star"></i>
-                      </span>
-                    </div>
-                    <div className="price">${item.price}</div>
-                  </div>
-                </div>
+                <Product key={item._id} item={item} />
               );
             })}
           </div>

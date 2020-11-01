@@ -18,7 +18,7 @@ const data = {
             image: './images/p2.jpg',
             price: 150,
             brand:'Addidas',
-            rating: 4.7,
+            rating: 3.5,
             numReviews: 5,
             description:'high qua;ity product'
         },
@@ -29,7 +29,7 @@ const data = {
             image: './images/p3.jpg',
             price: 150,
             brand:'Lacoste',
-            rating: 4.2,
+            rating:3,
             numReviews: 5,
             description:'high qua;ity product'
         },
@@ -40,7 +40,7 @@ const data = {
             image: './images/p4.jpg',
             price: 200,
             brand:'Nike',
-            rating: 3.6,
+            rating: 3.5,
             numReviews: 15,
             description:'high qua;ity product'
         },
@@ -51,7 +51,7 @@ const data = {
             image: './images/p5.jpg',
             price: 245,
             brand:'Addidas',
-            rating: 4.6,
+            rating: 1.5,
             numReviews: 3,
             description:'high qua;ity product'
         }
